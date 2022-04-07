@@ -29,7 +29,6 @@ export default function MyWork() {
           </GithubLink>
         </StyledText>
         <GeneralSkillsContainer>
-
           {data.map(
             ({
               index,
@@ -67,7 +66,6 @@ const ComponentContainer = styled.div`
 `;
 
 const StyledSubTitle = styled.h2`
-  margin-top: 100px;
   max-width: 80%;
   text-align: center;
 
