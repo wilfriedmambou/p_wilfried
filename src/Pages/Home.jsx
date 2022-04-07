@@ -4,6 +4,7 @@ import Header from '../Components/Header';
 import Intro from '../Components/Intro';
 import Services from '../Components/Services';
 import ContactUs from '../Components/ContactUs';
+import Footer from '../Components/Footer';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       {/* <Presentation /> */}
       <MyWork />
       <ContactUs/>
+      <Footer/>
     </>
   );
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+
 import '../../css/style.css'
 import '../../css/bootstrap.css'
 // import '../../css/font-awesome.min.css'
@@ -26,22 +27,8 @@ export default function index() {
 							<li className="nav-item"><a className="nav-link" href="about.html">About</a></li>
 							<li className="nav-item"><a className="nav-link" href="services.html">Services</a></li>
 							<li className="nav-item"><a className="nav-link" href="portfolio.html">Portfolio</a></li>
-							<li className="nav-item submenu dropdown">
-								<a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Pages</a>
-								<ul className="dropdown-menu">
-									<li className="nav-item"><a className="nav-link" href="elements.html">Elements</a></li>
-									<li className="nav-item"><a className="nav-link" href="portfolio-details.html">Portfolio Details</a></li>
-								</ul>
-							</li>
-							<li className="nav-item submenu dropdown">
-								<a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul className="dropdown-menu">
-									<li className="nav-item"><a className="nav-link" href="blog.html">Blog</a></li>
-									<li className="nav-item"><a className="nav-link" href="single-blog.html">Blog Details</a></li>
-								</ul>
-							</li>
+						
+							
 							<li className="nav-item"><a className="nav-link" href="contact.html">Contact</a></li>
 						</ul>
 					</div>
