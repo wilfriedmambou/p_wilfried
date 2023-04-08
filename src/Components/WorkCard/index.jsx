@@ -13,7 +13,7 @@ export default function WorkCard({
 
     let  screenshot ="";
   const newTitle = title.split('_')[1];
- console.log(description);
+ console.log(title,"test-title");
   if( title.toLowerCase().includes('portfolio' ) && description !=null ){
       console.log(github_url);
     const startScreenshot = description.split(`![${newTitle}](`)[1];
